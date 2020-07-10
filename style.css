@@ -1,0 +1,1144 @@
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    button:focus {
+        outline: none;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    @media (min-device-width:600px) {
+        img[data-src-600px] {
+            content: attr(data-src-600px, url);
+        }
+    }
+    
+    @media (min-device-width:800px) {
+        img[data-src-800px] {
+            content: attr(data-src-800px, url);
+        }
+    }
+    
+    .header {
+        background-color: rgb(22, 23, 24);
+        width: 1920px;
+        height: 85px;
+        margin-left: -8px;
+        margin-top: -16px;
+    }
+    
+    #menu {
+        padding-left: 25%;
+        background-color: rgb(22, 23, 24);
+        margin-left: 950px;
+        margin-top: -1.25%;
+    }
+    
+    #menu ul {
+        margin-right: -300px;
+    }
+    
+    .header a {
+        color: white;
+        font-family: "Montserrat";
+        font-size: 12px;
+        text-decoration: none;
+        padding-top: -25px;
+    }
+    
+    .header ul {
+        list-style-type: none;
+    }
+    
+    .header ul li {
+        float: left;
+        padding-left: 25px;
+        padding-right: 10px;
+    }
+    
+    .header ul li a {
+        display: block;
+    }
+    
+    .header ul li a:hover {
+        color: rgb(87, 198, 84);
+    }
+    
+    .header ul li ul li {
+        display: none;
+        transform: translate(-800%, -100%);
+    }
+    
+    .header ul li:hover ul li {
+        display: block;
+    }
+    
+    .logoCopy {
+        height: 33px;
+        width: 33px;
+        margin-left: 25%;
+        margin-top: 1%;
+    }
+    
+    .logoCopy img {
+        width: 100%;
+    }
+    
+    form.Search_Icon {
+        width: 40px;
+        height: 30px;
+        margin-left: 1480px;
+        background-color: rgb(22, 23, 24);
+        margin-top: -23px;
+    }
+    
+    form.Search_Icon img {
+        width: 100%;
+    }
+    
+    form.Search_Icon button {
+        background-color: rgb(22, 23, 24);
+        border: none;
+        cursor: pointer;
+    }
+    
+    form.Search_Icon button:focus {
+        outline: none;
+    }
+    
+    .weAreGonex {
+        background-color: #123f46;
+        width: 1920px;
+        height: 800px;
+        margin-left: -8px;
+        text-align: center;
+    }
+    
+    .WE_ARE_GONEX {
+        font-size: 40px;
+        font-family: 'Montserrat';
+        color: rgb(249, 83, 83);
+        font-weight: bold;
+        line-height: 1.2;
+        padding-top: 234px;
+    }
+    
+    .Dui_aliquam_quisque_ {
+        font-size: 15px;
+        font-family: "Lora";
+        color: rgb(255, 255, 255);
+        line-height: 2;
+        text-align: center;
+        letter-spacing: 1px;
+        margin-top: -50px;
+    }
+    
+    form.show_me_more button {
+        text-align: center;
+        margin-top: 25px;
+        background-color: rgb(86, 197, 83);
+        border: none;
+        width: 231px;
+        height: 42px;
+    }
+    
+    form.show_me_more button:focus {
+        outline: none;
+    }
+    
+    .showMeMore {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        line-height: 0.9;
+        font-weight: 550;
+        letter-spacing: 0.5px;
+    }
+    
+    .next {
+        cursor: pointer;
+        width: auto;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        position: absolute;
+        left: 1685px;
+        top: 447px;
+        padding: 15px;
+    }
+    
+    .prev {
+        cursor: pointer;
+        width: auto;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        position: absolute;
+        left: 215px;
+        top: 447px;
+        padding: 15px;
+    }
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 5px;
+    }
+    
+    .mySlides img {
+        max-height: 100%;
+        width: 100%;
+    }
+    
+    .weAreGonex ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+    }
+    
+    .weAreGonex li {
+        padding-top: 25px;
+        margin-left: 18.1%;
+    }
+    
+    #sliderLeftID button {
+        margin-left: -428.2px;
+    }
+    
+    #textBetweenSlides {
+        margin-right: 195px;
+    }
+    
+    .services {
+        width: 1920px;
+        height: 800px;
+        margin-left: -8px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .row1 {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        width: 64%;
+        margin-bottom: -16px;
+        padding-top: 70px;
+    }
+    
+    .row2 {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        width: 64%;
+    }
+    
+    .columns {
+        padding: 20px;
+    }
+    
+    .service0 {
+        background-color: rgb(255, 255, 255);
+        width: 370px;
+        height: 300px;
+        text-align: center;
+        margin-top: -14px;
+    }
+    
+    .whatWeDo {
+        font-size: 32.63px;
+        font-family: "Lora";
+        color: rgb(96, 95, 101);
+        padding-top: 95px;
+        line-height: 1.2;
+    }
+    
+    .best {
+        font-size: 48.34px;
+        font-family: "Montserrat";
+        color: rgb(249, 83, 83);
+        font-weight: bold;
+        margin-top: -35px;
+        margin-left: -80px;
+    }
+    
+    .seeItForYourself {
+        font-size: 20.545px;
+        font-family: "Lora";
+        color: rgb(96, 95, 101);
+        font-style: italic;
+        margin-top: -35px;
+        margin-left: -68px;
+        line-height: 1.2;
+    }
+    
+    .service1 {
+        background-color: rgb(247, 247, 247);
+        width: 370px;
+        height: 300px;
+        text-align: center;
+    }
+    
+    .photography {
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(85, 86, 91);
+        font-weight: 600;
+        line-height: 1.2;
+        padding-top: 110px;
+    }
+    
+    .necFeugiat {
+        font-size: 15px;
+        font-family: "Lora";
+        color: rgb(157, 157, 157);
+        letter-spacing: 1.1px;
+    }
+    
+    form.see_Projects button {
+        background-color: rgb(247, 247, 247);
+        border: none;
+    }
+    
+    form.see_Projects button:focus {
+        outline: none;
+    }
+    
+    .see-projects {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(249, 83, 83);
+        font-weight: bold;
+    }
+    
+    .service2 {
+        background-color: rgb(247, 247, 247);
+        width: 370px;
+        height: 300px;
+        text-align: center;
+    }
+    
+    .graphicDesign {
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(85, 86, 91);
+        font-weight: 600;
+        line-height: 1.2;
+        padding-top: 110px;
+    }
+    
+    .service3 {
+        background-color: rgb(247, 247, 247);
+        width: 370px;
+        height: 300px;
+        text-align: center;
+    }
+    
+    .appDevelopment {
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(85, 86, 91);
+        font-weight: 600;
+        line-height: 1.2;
+        padding-top: 110px;
+    }
+    
+    .service4 {
+        background-color: #56c553;
+        width: 370px;
+        height: 300px;
+        text-align: center;
+    }
+    
+    .programming {
+        font-size: 18px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        line-height: 1.2;
+        padding-top: 110px;
+    }
+    
+    .service4 form.see_Projects button {
+        background-color: #56c553;
+    }
+    
+    .service4 p {
+        color: rgb(247, 247, 247);
+    }
+    
+    .service5 {
+        background-color: rgb(247, 247, 247);
+        width: 370px;
+        height: 300px;
+        text-align: center;
+    }
+    
+    .webCoding {
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(85, 86, 91);
+        font-weight: 600;
+        padding-top: 110px;
+    }
+    
+    .video {
+        background-color: #324651;
+        width: 1920px;
+        height: 670px;
+        margin-left: -8px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    
+    .logoMidScreen {
+        width: 85px;
+        height: 86px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 12.5%;
+        padding-bottom: 10px;
+    }
+    
+    .logoMidScreen img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .showMeTheVideo {
+        font-size: 30px;
+        font-family: "Montserrat";
+        color: rgb(249, 83, 83);
+        line-height: 1.2;
+        font-weight: 500;
+        letter-spacing: 0.9px;
+    }
+    
+    .justHitPlay {
+        font-size: 15px;
+        font-family: "Lora";
+        color: #d6dadc;
+        letter-spacing: 1.2px;
+        margin-top: -10px;
+    }
+    
+    .player {
+        background-color: #192329;
+        width: 650px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+        padding-top: 90px;
+        border-radius: 10px;
+    }
+    
+    #playList {
+        margin-top: -30px;
+    }
+    
+    #songTitle {
+        margin-top: -65px;
+        font-family: "Montserrat";
+        font-size: 15px;
+        color: rgb(249, 83, 83);
+    }
+    
+    #seek-bar {
+        width: 250px;
+        height: 5px;
+        background-color: grey;
+        display: flex;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+    
+    #fill {
+        height: 5px;
+        background-color: rgb(249, 83, 83);
+        border-radius: 20px;
+    }
+    
+    #handler {
+        width: 8px;
+        height: 8px;
+        background-color: rgb(249, 83, 83);
+        border-radius: 50%;
+        margin-left: -5px;
+        transform: scale(2);
+    }
+    
+    #previous {
+        border: none;
+        background-color: #192329;
+        margin-left: 20px;
+    }
+    
+    #play {
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background-color: #192329;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #play img {
+        width: 16px;
+        height: 33px;
+    }
+    
+    #next {
+        border: none;
+        background-color: #192329;
+    }
+    
+    #volume {
+        display: flex;
+        margin-left: 565px;
+        margin-top: -30px;
+    }
+    
+    #volumeIcon {
+        height: 25px;
+        width: 25px;
+        background-color: rgb(249, 83, 83);
+        border-radius: 50%;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    
+    #volumeIcon img {
+        margin: 4px;
+        width: 50%;
+    }
+    
+    #decrease,
+    #increase {
+        height: 20px;
+        width: 20px;
+        background-color: rgb(249, 83, 83);
+        border: none;
+        outline: none;
+        border-radius: 50%;
+        font-family: fantasy;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        line-height: 18px;
+        margin-top: 3px;
+        cursor: pointer;
+    }
+    
+    #currentTimeContainer {
+        background-color: #192329;
+        width: 100px;
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+    
+    #currentTime {
+        font-size: 13px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        letter-spacing: 1.1px;
+    }
+    
+    .workings {
+        background-color: #ffffff;
+        width: 1920px;
+        height: 950px;
+        text-align: center;
+    }
+    
+    .works {
+        font-size: 30px;
+        font-family: "Montserrat";
+        font-weight: bold;
+        color: rgb(249, 83, 83);
+        line-height: 1.2;
+        margin-top: 115px;
+    }
+    
+    .latinText {
+        font-size: 13px;
+        font-family: "Lora";
+        color: rgb(157, 157, 157);
+        line-height: 2.308;
+        letter-spacing: 1.1px;
+    }
+    
+    .workList ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 580px;
+    }
+    
+    .workList li {
+        margin-right: 42px;
+    }
+    
+    .workList li:hover {
+        border-bottom: 1px solid rgb(248, 82, 82);
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-width: 0.5mm;
+    }
+    
+    .workList button {
+        background-color: #ffffff;
+        border: none;
+    }
+    
+    .workList button:focus {
+        outline: none;
+    }
+    
+    .ALL p {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        font-weight: bold;
+    }
+    
+    .PHOTOGRAPHY p {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        font-weight: bold;
+    }
+    
+    .GRAPHIC_DESIGN p {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        font-weight: bold;
+    }
+    
+    .APP p {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        font-weight: bold;
+    }
+    
+    .PROGRAMMING p {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        font-weight: bold;
+    }
+    
+    .WEB p {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        font-weight: bold;
+    }
+    
+    .rows {
+        margin-top: 107.5px;
+        margin-left: -1354px;
+    }
+    
+    .firstRow {
+        margin-left: 1926px;
+        margin-top: -554px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .secondRow {
+        margin-left: 1926px;
+        margin-top: -4px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .awesomeImage {
+        outline: 0.8mm solid rgb(243, 77, 74);
+        outline-offset: -15px;
+        text-align: center;
+    }
+    
+    .awesomeImage ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-left: 105px;
+        margin-top: -20px;
+    }
+    
+    .AWESOME_IMAGE {
+        font-size: 30px;
+        font-family: "Montserrat";
+        color: rgb(87, 198, 84);
+        line-height: 2;
+        font-weight: 560;
+        margin-top: -190px;
+        letter-spacing: 0.9px;
+    }
+    
+    .likes76 {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(249, 83, 83);
+        line-height: 1.2;
+        font-weight: 500;
+        margin-left: 15px;
+        margin-top: -15px;
+    }
+    
+    .ABOUT_US_SECTION {
+        margin-left: -8px;
+        margin-top: -116.5px;
+        background-color: #324651;
+        width: 1920px;
+        height: 950px;
+        text-align: center;
+    }
+    
+    .ABOUT_US_TITLE {
+        font-size: 30px;
+        font-family: "Montserrat";
+        color: rgb(249, 83, 83);
+        line-height: 1.2;
+        font-weight: 500;
+        padding-top: 115px;
+    }
+    
+    .SOME_SIMPLE_WORD_ABO {
+        font-size: 13px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        line-height: 2.308;
+        letter-spacing: -0.25px;
+    }
+    
+    .Ad_graeci_omnium_min {
+        font-size: 18px;
+        font-family: "Lora";
+        color: #d6dadc;
+        line-height: 1.667;
+        letter-spacing: 0.75px;
+        margin-top: 25px;
+    }
+    
+    .GONEX_STATISTIC {
+        width: 1920px;
+        height: 920px;
+        background-color: #f7f7f7;
+        margin-top: -29px;
+        margin-left: -8px;
+    }
+    
+    .gonexTitle {
+        font-size: 30px;
+        font-family: "Montserrat";
+        font-weight: bolder;
+        color: rgb(249, 83, 83);
+        line-height: 1.2;
+        letter-spacing: 1px;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .anotherLatinText {
+        font-size: 13px;
+        font-family: "Lora";
+        color: #a3a3a3;
+        line-height: 2;
+        text-align: center;
+        z-index: 67;
+        letter-spacing: 0.6px;
+        transform: scaleX(1.09);
+    }
+    
+    .skillsListGradient {
+        margin: auto;
+        width: 50%;
+    }
+    
+    .skillsListGradient ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin-top: 100px;
+    }
+    
+    .skillsListGradient li {
+        margin-bottom: 30px;
+    }
+    
+    .photographySkillLine {
+        background-color: rgb(67, 67, 67);
+        width: 1px;
+        height: 15px;
+        margin-bottom: -9px;
+        margin-left: 719px;
+    }
+    
+    .photographySkillHover {
+        background-color: rgb(255, 255, 255);
+        opacity: 0.498;
+        margin-left: 720px;
+        margin-bottom: -65px;
+        width: 84px;
+        height: 9px;
+    }
+    
+    .photographySkillTitle {
+        font-size: 15px;
+        font-family: "Montserrat";
+        font-weight: bolder;
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        margin-bottom: -85px;
+        margin-left: 103px;
+    }
+    
+    .photographySkillGradient {
+        background-image: -moz-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        background-image: -ms-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        margin: 103px;
+        width: 701px;
+        height: 7px;
+        border-radius: 5px;
+    }
+    
+    ._93_percentage {
+        font-size: 20px;
+        font-family: "Montserrat";
+        font-weight: bolder;
+        color: rgb(68, 68, 68);
+        line-height: 1.5;
+        margin-bottom: -75px;
+        margin-left: 718px;
+    }
+    
+    .graphicDesignSkillLine {
+        background-color: rgb(67, 67, 67);
+        margin-left: 753px;
+        width: 1px;
+        height: 15px;
+        margin-bottom: -9px;
+    }
+    
+    ._95_percentage {
+        font-size: 20px;
+        font-family: "Montserrat";
+        font-weight: bolder;
+        color: rgb(68, 68, 68);
+        line-height: 1.5;
+        margin-bottom: -75px;
+        margin-left: 751px;
+    }
+    
+    .graphicDesignSkillHover {
+        background-color: rgb(255, 255, 255);
+        opacity: 0.498;
+        width: 51px;
+        height: 9px;
+        margin-left: 753px;
+        margin-bottom: -65px;
+    }
+    
+    .graphicDesignSkillTitle {
+        font-size: 15px;
+        font-family: "Montserrat";
+        font-weight: bolder;
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        margin-bottom: -85px;
+        margin-left: 103px;
+    }
+    
+    .graphicDesignSkillGradient {
+        background-image: -moz-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        background-image: -ms-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        margin: 103px;
+        width: 701px;
+        height: 7px;
+        border-radius: 5px;
+    }
+    
+    .appSkillLine {
+        background-color: rgb(67, 67, 67);
+        margin-left: 526px;
+        width: 1px;
+        height: 15px;
+        margin-bottom: -9px;
+    }
+    
+    ._75_percentage {
+        font-size: 20px;
+        font-family: "Montserrat";
+        font-weight: bolder;
+        color: rgb(68, 68, 68);
+        line-height: 1.5;
+        margin-bottom: -75px;
+        margin-left: 527px;
+    }
+    
+    .appSkillHover {
+        background-color: rgb(255, 255, 255);
+        opacity: 0.498;
+        margin-left: 527px;
+        width: 277px;
+        height: 9px;
+        margin-bottom: -65px;
+    }
+    
+    .appSkillTitle {
+        font-size: 15px;
+        font-family: "Montserrat";
+        font-weight: bolder;
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        margin-bottom: -85px;
+        margin-left: 103px;
+    }
+    
+    .appSkillGradient {
+        background-image: -moz-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        background-image: -ms-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        margin: 103px;
+        width: 701px;
+        height: 7px;
+        border-radius: 5px;
+    }
+    
+    .programmingSkillLine {
+        background-color: rgb(67, 67, 67);
+        margin-left: 461px;
+        width: 1px;
+        height: 15px;
+        margin-bottom: -9px;
+    }
+    
+    ._53_percentage {
+        font-size: 20px;
+        font-family: "Montserrat";
+        font-weight: bolder;
+        color: rgb(68, 68, 68);
+        line-height: 1.5;
+        margin-bottom: -75px;
+        margin-left: 462px;
+    }
+    
+    .programmingSkillHover {
+        background-color: rgb(255, 255, 255);
+        opacity: 0.498;
+        width: 341px;
+        height: 9px;
+        margin-left: 462px;
+        margin-bottom: -65px;
+    }
+    
+    .programmingSkillTitle {
+        font-size: 15px;
+        font-family: "Montserrat";
+        font-weight: bolder;
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        margin-bottom: -85px;
+        margin-left: 103px;
+    }
+    
+    .programmingSkillGradient {
+        background-image: -moz-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        background-image: -ms-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        margin: 103px;
+        width: 700px;
+        height: 7px;
+        border-radius: 5px;
+    }
+    
+    .webSkillLine {
+        background-color: rgb(67, 67, 67);
+        margin-left: 630px;
+        width: 1px;
+        height: 15px;
+        margin-bottom: -9px;
+    }
+    
+    ._84_percentage {
+        font-size: 20px;
+        font-family: "Montserrat";
+        font-weight: bolder;
+        color: rgb(68, 68, 68);
+        line-height: 1.5;
+        margin-bottom: -75px;
+        margin-left: 631px;
+    }
+    
+    .webSkillHover {
+        background-color: rgb(255, 255, 255);
+        opacity: 0.498;
+        width: 174px;
+        height: 9px;
+        margin-left: 631px;
+        margin-bottom: -65px;
+    }
+    
+    .webSkillTitle {
+        font-size: 15px;
+        font-family: "Montserrat";
+        font-weight: bolder;
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        margin-bottom: -85px;
+        margin-left: 103px;
+    }
+    
+    .webSkillGradient {
+        background-image: -moz-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        background-image: -ms-linear-gradient( 0deg, rgb(86, 197, 83) 1%, rgb(248, 82, 82) 99%);
+        margin: 103px;
+        width: 701px;
+        height: 7px;
+        border-radius: 5px;
+    }
+    
+    .contactUs {
+        background-color: rgb(26, 26, 26);
+        width: 1920px;
+        height: 508px;
+        margin-left: -8px;
+    }
+    
+    #email {
+        font-size: 15px;
+        border: 1px solid #999999;
+        float: left;
+        width: 80%;
+        background: #1a1a1a;
+        width: 370px;
+        height: 35px;
+        margin-top: 118px;
+        margin-left: 708px;
+        line-height: 1.2;
+        font-weight: bold;
+        color: rgb(85, 86, 91);
+        font-family: "Montserrat";
+        opacity: 0.66;
+    }
+    
+    #submit {
+        text-align: center;
+        background-color: rgb(248, 82, 82);
+        width: 170px;
+        height: 40px;
+        border: none;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        line-height: 1.2px;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 25px;
+        margin-top: 118px;
+        outline: none;
+    }
+    
+    .contactUsIcons ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+    }
+    
+    .contactUsIcons li {
+        margin-top: 70px;
+        margin-left: 150px;
+        margin-right: -235px;
+    }
+    
+    .phoneNumber {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        font-weight: bold;
+    }
+    
+    .gonexMail {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        font-weight: bold;
+    }
+    
+    .location {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(85, 86, 91);
+        line-height: 1.2;
+        font-weight: bold;
+    }
+    
+    .contactUsIcons ul img {
+        margin-right: 25px;
+        margin-left: 280px;
+    }
+    
+    .socialIcons ul {
+        margin-left: 800px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .socialIcons li {
+        padding-top: 50px;
+        padding-right: 45px;
+    }
+    
+    .socialIcons button {
+        border: none;
+        background-color: rgb(26, 26, 26);
+    }
+    
+    .socialIcons button:focus {
+        outline: none;
+    }
+    
+    .footer {
+        background-color: rgb(0, 0, 0);
+        width: 1920px;
+        height: 66px;
+        margin-top: -15px;
+        margin-left: -8px;
+        text-align: center;
+    }
+    
+    ._©_2016___Gonex_All_ {
+        font-size: 15px;
+        font-family: "Montserrat";
+        color: rgb(87, 198, 84);
+        line-height: 1.2;
+        font-weight: 500;
+        padding-top: 25px;
+    }
